@@ -1,7 +1,8 @@
 ---
 applications:
-  - name: dotnet_core_hello_world
-    disk_quota: 1536M
-    random-route: true
-    env:
-      CACHE_NUGET_PACKAGES: false
+- name: cf-samples-dotnet
+  host: d043918trial-cf-messagequeue
+  memory: 256M
+  instances: 1
+  env:
+    CACHE_NUGET_PACKAGES: false
