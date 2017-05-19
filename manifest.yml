@@ -1,7 +1,7 @@
 ---
 applications:
 - name: cf-samples-dotnet
-  host: d043918trial-cf-messagequeue
+  host: d043918trial-cf-dotnet
   memory: 256M
   instances: 1
   env:
